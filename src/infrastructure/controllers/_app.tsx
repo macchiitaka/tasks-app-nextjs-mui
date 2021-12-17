@@ -3,7 +3,7 @@ import Head from 'next/head';
 import type { FC } from 'react';
 import { useMemo } from 'react';
 import type { DehydratedState } from 'react-query';
-import { Hydrate, QueryClient, QueryClientProvider } from 'react-query';
+import { QueryClient, QueryClientProvider } from 'react-query';
 import { ReactQueryDevtools } from 'react-query/devtools';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -31,13 +31,11 @@ export const Provider: FC<{
 
   return (
     <QueryClientProvider client={queryClient}>
-      <Hydrate state={props.dehydratedState}>
-        {process.env.NODE_ENV !== 'production' &&
-          process.env.STORYBOOK !== 'true' && (
-            <ReactQueryDevtools initialIsOpen={false} />
-          )}
-        {props.children}
-      </Hydrate>
+      {process.env.NODE_ENV !== 'production' &&
+        process.env.STORYBOOK !== 'true' && (
+          <ReactQueryDevtools initialIsOpen={false} />
+        )}
+      {props.children}
     </QueryClientProvider>
   );
 };
