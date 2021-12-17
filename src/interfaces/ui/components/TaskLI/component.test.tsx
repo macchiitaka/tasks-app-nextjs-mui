@@ -51,6 +51,8 @@ it('If check the delete button, should onClickDelete to be called', async () => 
 
   renderComponent({ done: false, onClickDelete: handleClickDelete });
   userEvent.click(await screen.findByRole('button', { name: 'Delete' }));
+  await screen.findByRole('heading', { name: 'Delete task' });
+  userEvent.click(await screen.findByRole('button', { name: 'Delete' }));
 
   expect(handleClickDelete).toHaveBeenCalled();
 });
