@@ -1,0 +1,1 @@
+export { NewTaskForm } from './component';

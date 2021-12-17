@@ -1,0 +1,9 @@
+/node_modules
+/.next
+/lib/$path.ts
+/*rc.js
+/*.config.js
+*.d.ts
+/src/aws-exports.js
+/storybook-public
+/jest.setup.ts

@@ -1,0 +1,3 @@
+{
+  "extends": ["github>macchiitaka/renovate-config", ":assignee(macchiitaka)"]
+}
