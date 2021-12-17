@@ -6,9 +6,6 @@ const meta: ComponentMeta<typeof View> = {
   title: 'Component/TaskLI',
   component: View,
   args: {
-    id: 1,
-    createdAt: '2021-01-01 00:00',
-    updatedAt: '2021-01-01 00:00',
     title: 'TODO_01',
     done: false,
   },
