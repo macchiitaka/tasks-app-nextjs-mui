@@ -46,7 +46,7 @@ const useChangeDoneHandler = (id: number, title: string) => {
           ) ?? [],
       );
     },
-    onSettled: async (result) => {
+    onError: async () => {
       queryClient.invalidateQueries(taskKeys.list());
     },
     retry: 5,
@@ -72,17 +72,15 @@ const useClickDeleteHandler = (id: number, title: string) => {
         (tasks) => tasks?.filter((task) => task.id !== id) ?? [],
       );
     },
-    onSettled: async () => {
+    onError: async () => {
       queryClient.invalidateQueries(taskKeys.list());
     },
     retry: 5,
   });
 
   return useCallback(() => {
-    if (confirm(`Are you OK to delete "${title || 'NO TITLE'}"`)) {
-      mutate(id);
-    }
-  }, [id, mutate, title]);
+    mutate(id);
+  }, [id, mutate]);
 };
 
 export const TaskLI: React.VFC<ContainerProps> = ({ id, title, done }) => {
@@ -91,6 +89,7 @@ export const TaskLI: React.VFC<ContainerProps> = ({ id, title, done }) => {
 
   return (
     <View
+      id={id}
       title={title}
       done={done}
       onChangeDone={handleChangeDone}
@@ -99,13 +98,14 @@ export const TaskLI: React.VFC<ContainerProps> = ({ id, title, done }) => {
   );
 };
 
-export const View: React.VFC<Omit<Props, 'id' | 'createdAt' | 'updatedAt'>> = ({
+export const View: React.VFC<Omit<Props, 'createdAt' | 'updatedAt'>> = ({
+  id,
   title,
   done,
   onChangeDone,
   onClickDelete,
 }) => {
-  const id = useUID();
+  const checkboxId = useUID();
 
   const [isOpened, setIsOpened] = useState(false);
 
@@ -131,10 +131,17 @@ export const View: React.VFC<Omit<Props, 'id' | 'createdAt' | 'updatedAt'>> = ({
         alignItems="center"
       >
         <FormControlLabel
-          control={<Checkbox id={id} checked={done} onChange={onChangeDone} />}
+          control={
+            <Checkbox
+              id={checkboxId}
+              checked={done}
+              disabled={id < 1}
+              onChange={onChangeDone}
+            />
+          }
           label={<Typography noWrap>{title}</Typography>}
         />
-        <Button type="button" onClick={handleOpen}>
+        <Button type="button" disabled={id < 1} onClick={handleOpen}>
           Delete
         </Button>
         <Confirm
