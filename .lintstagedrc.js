@@ -1,3 +1,5 @@
 module.exports = {
-  '**/*.{js,jsx,ts,tsx}': ['eslint'],
+  '*.@(ts|tsx)': 'bash -c tsc',
+  '*.@(js|ts|tsx)': 'eslint --fix',
+  '*.test.@(js|ts|tsx)': 'jest',
 };
