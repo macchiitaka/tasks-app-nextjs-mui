@@ -4,7 +4,7 @@
 [![CodeQL](https://github.com/macchiitaka/tasks-app-nextjs/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/macchiitaka/tasks-app-nextjs/actions/workflows/codeql-analysis.yml)
 
 [Tasks] Web app using Next.js + TypeScript + React Query + MUI
-[Demo](https://tasks-app-nextjs-mui.vercel.app/)
+[Demo](https://tasks-app-nextjs-mui.pages.dev/)
 
 ## Technologies
 
