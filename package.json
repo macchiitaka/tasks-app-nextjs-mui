@@ -24,9 +24,13 @@
     "storybook": "start-storybook -p 6006 -s storybook-public",
     "build-storybook": "build-storybook -s storybook-public"
   },
+  "resolutions": {
+    "@mui/styled-engine": "npm:@mui/styled-engine-sc@5.1.0"
+  },
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@mui/material": "^5.2.4",
+    "@mui/styled-engine": "npm:@mui/styled-engine-sc@5.1.0",
     "@next/bundle-analyzer": "^12.0.7",
     "axios": "0.24.0",
     "next": "12.0.7",
@@ -34,7 +38,8 @@
     "react-dom": "17.0.2",
     "react-is": "17.0.2",
     "react-query": "4.0.0-alpha.5",
-    "react-uid": "^2.3.1"
+    "react-uid": "^2.3.1",
+    "styled-components": "^5.3.3"
   },
   "devDependencies": {
     "@babel/core": "^7.16.5",
