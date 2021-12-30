@@ -10987,10 +10987,10 @@ react-popper@^2.2.4:
     react-fast-compare "^3.0.1"
     warning "^4.0.2"
 
-react-query@4.0.0-alpha.5:
-  version "4.0.0-alpha.5"
-  resolved "https://registry.yarnpkg.com/react-query/-/react-query-4.0.0-alpha.5.tgz#f7702cf3d6d71c9bc7dc478630644ca486ec5a16"
-  integrity sha512-j1BclCBPGJuaVaRNnlr/hB/0hDjQfPhwmDtxldHQIaFdKczAQT7K9A6GdZQ6TWi0jLHy7QvnuOTaWBLYlpB5Yg==
+react-query@4.0.0-alpha.6:
+  version "4.0.0-alpha.6"
+  resolved "https://registry.yarnpkg.com/react-query/-/react-query-4.0.0-alpha.6.tgz#c7d24f2600908fadbbda9ec06f08a39f0cdc6483"
+  integrity sha512-kMpv+6bPpDuxvgy4o+XFOnmuUXCSGOXEaq2D1ja7VYoOUU8RXvF3/BpEvRw2HrLzszgEUiSb2dtfQ+MiEc61gQ==
   dependencies:
     "@babel/runtime" "^7.5.5"
     broadcast-channel "^3.4.1"
