@@ -56,7 +56,7 @@
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "@types/babel__core": "^7.1.18",
-    "@types/eslint": "^8.2.1",
+    "@types/eslint": "^8.2.2",
     "@types/is-ci": "3.0.0",
     "@types/prettier": "2.4.2",
     "@types/react": "17.0.38",
