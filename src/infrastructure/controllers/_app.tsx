@@ -5,13 +5,16 @@ import { useMemo } from 'react';
 import type { DehydratedState } from 'react-query';
 import { QueryClient, QueryClientProvider } from 'react-query';
 import { ReactQueryDevtools } from 'react-query/devtools';
+import { Provider as ReduxStoreProvider } from 'react-redux';
+
+import { wrapper } from '../../interfaces/ui/store/store';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 type GetConstructorArgs<T> = T extends new (...args: infer U) => any
   ? U
   : never;
 
-export const Provider: FC<{
+export const ReactQueryClientProvider: FC<{
   queryClientConfig?: GetConstructorArgs<typeof QueryClient>[0];
   dehydratedState?: DehydratedState;
 }> = (props) => {
@@ -40,21 +43,28 @@ export const Provider: FC<{
   );
 };
 
-export const MyApp = ({ Component, pageProps }: AppProps) => (
-  <>
-    <Head>
-      <meta
-        name="viewport"
-        content={[
-          ['initial-scale', '1'],
-          ['width', 'device-width'],
-        ]
-          .map(([key, value]) => `${key}=${value}`)
-          .join(', ')}
-      />
-    </Head>
-    <Provider dehydratedState={pageProps.dehydratedState}>
-      <Component {...pageProps} />
-    </Provider>
-  </>
-);
+export const MyApp = wrapper.withRedux(({ Component, ...rest }: AppProps) => {
+  const { store, props } = wrapper.useWrappedStore(rest);
+  return (
+    <>
+      <Head>
+        <meta
+          name="viewport"
+          content={[
+            ['initial-scale', '1'],
+            ['width', 'device-width'],
+          ]
+            .map(([key, value]) => `${key}=${value}`)
+            .join(', ')}
+        />
+      </Head>
+      <ReduxStoreProvider store={store}>
+        <ReactQueryClientProvider
+          dehydratedState={props.pageProps.dehydratedState}
+        >
+          <Component {...props.pageProps} />
+        </ReactQueryClientProvider>
+      </ReduxStoreProvider>
+    </>
+  );
+});

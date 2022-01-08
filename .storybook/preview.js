@@ -1,4 +1,4 @@
-import { Provider } from '../src/infrastructure/controllers/_app';
+import { ReactQueryClientProvider } from '../src/infrastructure/controllers/_app';
 import { addDecorator } from '@storybook/react';
 import { initialize, mswDecorator } from 'msw-storybook-addon';
 
@@ -16,7 +16,7 @@ export const parameters = {
 
 export const decorators = [
   (Story) => (
-    <Provider
+    <ReactQueryClientProvider
       queryClientConfig={{
         defaultOptions: {
           queries: {
@@ -26,7 +26,7 @@ export const decorators = [
       }}
     >
       <Story />
-    </Provider>
+    </ReactQueryClientProvider>
   ),
 ];
 

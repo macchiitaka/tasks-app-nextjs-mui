@@ -3,3 +3,4 @@
 /lib/$path.ts
 *.d.ts
 !.*rc.js
+/out
