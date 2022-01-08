@@ -5,7 +5,7 @@ import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import type { ComponentProps } from 'react';
 
-import { Provider } from '../../../../infrastructure/controllers/_app';
+import { ReactQueryClientProvider } from '../../../../infrastructure/controllers/_app';
 import { View } from './component';
 
 const renderComponent = (props?: Partial<ComponentProps<typeof View>>) => {
@@ -19,7 +19,9 @@ const renderComponent = (props?: Partial<ComponentProps<typeof View>>) => {
     onClickDelete: jest.fn(),
   };
 
-  return render(<View {...defaultProps} {...props} />, { wrapper: Provider });
+  return render(<View {...defaultProps} {...props} />, {
+    wrapper: ReactQueryClientProvider,
+  });
 };
 
 it('Render title', async () => {
