@@ -1,11 +1,9 @@
 import { Input, Typography } from '@mui/material';
 import type { GetStaticProps } from 'next';
 import Head from 'next/head';
-import Image from 'next/image';
 import type { ChangeEvent } from 'react';
 import { useCallback } from 'react';
 
-import { staticPath } from '../../../lib/$path';
 import { aSlice } from '../../interfaces/ui/store/a';
 import { bSlice } from '../../interfaces/ui/store/b';
 import {
@@ -42,13 +40,6 @@ export const SSG: React.VFC = () => {
       <Typography component="span">+</Typography>
       <Input type="number" value={b} onChange={handleChangeB} />
       <Typography component="span">={a + b}</Typography>
-
-      <Image
-        src={staticPath.mountain_png}
-        alt="Mountain"
-        width={2922}
-        height={1758}
-      />
     </>
   );
 };
