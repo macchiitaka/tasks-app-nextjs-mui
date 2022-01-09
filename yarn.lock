@@ -5012,9 +5012,9 @@ colorette@^2.0.16:
   integrity sha512-hUewv7oMjCp+wkBv5Rm0v87eJhq4woh5rSR+42YSQJKecCqgIqNkZ6lAlQms/BwHPJA5NKMRlpxPRv0n8HQW6g==
 
 colors@^1.1.2:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/colors/-/colors-1.4.0.tgz#c50491479d4c1bdaed2c9ced32cf7c7dc2360f78"
-  integrity sha512-a+UqTh4kgZg/SlGvfbzDHpgRu7AAQOmmqRHJnxhRZICKFUT91brVhNNt58CMWU9PsBbv3PDCZUHbVxuDiH2mtA==
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/colors/-/colors-1.4.1.tgz#57e798423c5fa9182f7531e4c587bfce9483175d"
+  integrity sha512-urbBmMVnD1vk0mUwCpnWv06P3f16EF+RMTtIXTkylJk5mAdfrMepu9B3hhSnL8DGkc1Ra6pENJHrXTKvcAZ0wA==
 
 combined-stream@^1.0.8:
   version "1.0.8"
@@ -5756,6 +5756,11 @@ duplexify@^3.4.2, duplexify@^3.6.0:
     readable-stream "^2.0.0"
     stream-shift "^1.0.0"
 
+eastasianwidth@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/eastasianwidth/-/eastasianwidth-0.2.0.tgz#696ce2ec0aa0e6ea93a397ffcf24aa7840c827cb"
+  integrity sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==
+
 ee-first@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
@@ -6170,9 +6175,9 @@ eslint-plugin-storybook@^0.5.5:
     requireindex "^1.1.0"
 
 eslint-plugin-testing-library@^5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-5.0.1.tgz#2c963211dd6e9e7cd196a8096000f20ecf846712"
-  integrity sha512-8ZV4HbbacvOwu+adNnGpYd8E64NRcil2a11aFAbc/TZDUB/xxK2c8Z+LoeoHUbxNBGbTUdpAE4YUugxK85pcwQ==
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-5.0.2.tgz#c23b0c5771c1cbc83826d8d97fc70d6323b92f71"
+  integrity sha512-GtFa9OFH2IWubObo8/46lOWua3bWlYEj5vn2f1qSwsy5QhBsE0fm6zCNdguYcgLha1/UKdJdN9vkp0H4CT6WXQ==
   dependencies:
     "@typescript-eslint/experimental-utils" "^5.5.0"
 
@@ -6533,9 +6538,9 @@ fast-glob@^2.2.6:
     micromatch "^3.1.10"
 
 fast-glob@^3.0.3, fast-glob@^3.1.1, fast-glob@^3.2.9:
-  version "3.2.9"
-  resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-3.2.9.tgz#8f55f664b68a236bd29fa165817fc44f2b11faba"
-  integrity sha512-MBwILhhD92sziIrMQwpqcuGERF+BH99ei2a3XsGJuqEKcSycAL+w0HWokFenZXona+kjFr82Lf71eTxNRC06XQ==
+  version "3.2.10"
+  resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-3.2.10.tgz#2734f83baa7f43b7fd41e13bc34438f4ffe284ee"
+  integrity sha512-s9nFhFnvR63wls6/kM88kQqDhMu0AfdjqouE2l5GVQPbqLgyFjjU5ry/r2yKsJxpb9Py1EYNqieFrmMaX4v++A==
   dependencies:
     "@nodelib/fs.stat" "^2.0.2"
     "@nodelib/fs.walk" "^1.2.3"
@@ -12119,12 +12124,12 @@ string-length@^4.0.1:
     strip-ansi "^6.0.1"
 
 string-width@^5.0.0:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/string-width/-/string-width-5.0.1.tgz#0d8158335a6cfd8eb95da9b6b262ce314a036ffd"
-  integrity sha512-5ohWO/M4//8lErlUUtrFy3b11GtNOuMOU0ysKCDXFcfXuuvUXu95akgj/i8ofmaGdN0hCqyl6uu9i8dS/mQp5g==
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/string-width/-/string-width-5.1.0.tgz#5ab00980cfb29f43e736b113a120a73a0fb569d3"
+  integrity sha512-7x54QnN21P+XL/v8SuNKvfgsUre6PXpN7mc77N3HlZv+f1SBRGmjxtOud2Z6FZ8DmdkD/IdjCaf9XXbnqmTZGQ==
   dependencies:
+    eastasianwidth "^0.2.0"
     emoji-regex "^9.2.2"
-    is-fullwidth-code-point "^4.0.0"
     strip-ansi "^7.0.1"
 
 "string.prototype.matchall@^4.0.0 || ^3.0.1", string.prototype.matchall@^4.0.6:
