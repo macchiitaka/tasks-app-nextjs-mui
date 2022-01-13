@@ -1913,7 +1913,7 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@storybook/addon-a11y@^6.4.9":
+"@storybook/addon-a11y@^6.4.12":
   version "6.4.12"
   resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-6.4.12.tgz#85e19f544ba6f03e65c527678cd96c2044f3da08"
   integrity sha512-Vq0PS4k7g0LXhV69uLep9cUA+0u78zH3ouLy6Y1KBHp6GV0n5te5UT2n/HsVuskWzOfSubqF1asMmY7onGJkQA==
@@ -1935,7 +1935,7 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/addon-actions@6.4.12", "@storybook/addon-actions@^6.4.9":
+"@storybook/addon-actions@6.4.12", "@storybook/addon-actions@^6.4.12":
   version "6.4.12"
   resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-6.4.12.tgz#0b25b67e4f0bf1fdcb2812d053efda5832b26889"
   integrity sha512-R3Ia2dvaPiwJmXcPra8e/gmpU84YovROBdpDttUzZEXMNEbfwHj00aRjZvH9nTKqHUSzrx8ZzGEDDqCMTqVcTg==
@@ -2048,7 +2048,7 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/addon-essentials@^6.4.9":
+"@storybook/addon-essentials@^6.4.12":
   version "6.4.12"
   resolved "https://registry.yarnpkg.com/@storybook/addon-essentials/-/addon-essentials-6.4.12.tgz#fb4a2053a1d828655555024af3e07c811421c650"
   integrity sha512-UvHiW7Lz730ATdd2AVCbShiJ459AefGebvp1E2fRfgIJksMgFtYFYRC8E4gmuKtqEfUVCbCm/5oNh5XPhR70+g==
@@ -2068,7 +2068,7 @@
     regenerator-runtime "^0.13.7"
     ts-dedent "^2.0.0"
 
-"@storybook/addon-links@^6.4.9":
+"@storybook/addon-links@^6.4.12":
   version "6.4.12"
   resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-6.4.12.tgz#7781e6d29ba72623dc6cf8e7aeeb23af16a17af1"
   integrity sha512-4azfzgcI/3FuVG5jdatCZ2uAHwT8Ic1NIshqhTw1OI4SGATgKvaF/bY6TnRPAZfp6dikgachViIlgcO7mQSl0g==
@@ -2634,7 +2634,7 @@
     react-docgen-typescript "^2.0.0"
     tslib "^2.0.0"
 
-"@storybook/react@^6.4.9":
+"@storybook/react@^6.4.12":
   version "6.4.12"
   resolved "https://registry.yarnpkg.com/@storybook/react/-/react-6.4.12.tgz#6451dd8f553f09b1f71d901663030da0a47ffb8a"
   integrity sha512-+o/Gb6QvQlMs6pPSElW86ebIB1maditHEXADNvm3VwKfz7SrLKB7rbZuE2WmhxzlW6NI11xGVImUv19QG3SH7g==
