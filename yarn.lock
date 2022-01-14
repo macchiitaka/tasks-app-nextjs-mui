@@ -2779,7 +2779,7 @@
     resolve-from "^5.0.0"
     store2 "^2.12.0"
 
-"@takamachi/eslint-config@^2.4.0":
+"@takamachi/eslint-config@^2.4.1":
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/@takamachi/eslint-config/-/eslint-config-2.4.1.tgz#49ce5b784106e8a393c3a91b50f0e41c021910ae"
   integrity sha512-zP2H0Jt08+PmGb+bVwBIKkbEJ1iwfqCN/3zZEVhBJAiprCdVJ476K8d9bafA+uYHLT0/9UuEkuMRUvSeYNbZgw==
