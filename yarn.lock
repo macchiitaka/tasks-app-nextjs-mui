@@ -1667,7 +1667,7 @@
     prop-types "^15.7.2"
     react-is "^17.0.2"
 
-"@mui/material@^5.2.7":
+"@mui/material@^5.2.8":
   version "5.2.8"
   resolved "https://registry.yarnpkg.com/@mui/material/-/material-5.2.8.tgz#50bbf7f04306c122524a02dd2a0827d79b2bbd05"
   integrity sha512-GYNYoTDw3C07D1rkB9pTS3xMH3gL0p3kb27SVMrMqP3AWrFxfrS73OnsonJh6Uy/F22pYX6rJxiFOhPq5+i4Eg==
