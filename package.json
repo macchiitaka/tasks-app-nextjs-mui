@@ -60,7 +60,7 @@
     "@testing-library/user-event": "^13.5.0",
     "@types/babel__core": "^7.1.18",
     "@types/caniuse-lite": "1.0.1",
-    "@types/eslint": "^8.4.0",
+    "@types/eslint": "^8.4.1",
     "@types/is-ci": "3.0.0",
     "@types/prettier": "2.4.3",
     "@types/react": "17.0.38",
