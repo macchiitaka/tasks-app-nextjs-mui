@@ -52,7 +52,7 @@
     "@storybook/addon-essentials": "^6.4.17",
     "@storybook/addon-links": "^6.4.17",
     "@storybook/react": "^6.4.17",
-    "@takamachi/eslint-config": "^2.5.0",
+    "@takamachi/eslint-config": "^2.5.1",
     "@takamachi/prettier-config": "^1.1.0",
     "@testing-library/dom": "^8.11.3",
     "@testing-library/jest-dom": "^5.16.1",
