@@ -55,7 +55,7 @@
     "@takamachi/eslint-config": "^2.5.1",
     "@takamachi/prettier-config": "^1.1.0",
     "@testing-library/dom": "^8.11.3",
-    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "@types/babel__core": "^7.1.18",
