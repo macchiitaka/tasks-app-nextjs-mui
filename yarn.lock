@@ -11660,10 +11660,10 @@ store2@^2.12.0:
   resolved "https://registry.yarnpkg.com/store2/-/store2-2.13.1.tgz#fae7b5bb9d35fc53dc61cd262df3abb2f6e59022"
   integrity sha512-iJtHSGmNgAUx0b/MCS6ASGxb//hGrHHRgzvN+K5bvkBTN7A9RTpPSf1WSp+nPGvWCJ1jRnvY7MKnuqfoi3OEqg==
 
-storybook-addon-next@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/storybook-addon-next/-/storybook-addon-next-1.4.0.tgz#c5603996fb7634003448a63e832236eca40f50c2"
-  integrity sha512-bhxz7odrqSX5oPt/tj52MVjH4xRCU1m91Lt2eNGpLLiDLvLgb3wigbVf/ebgRyMSvIn4sZJv4brRbQegYw5g0g==
+storybook-addon-next@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/storybook-addon-next/-/storybook-addon-next-1.4.1.tgz#d9afe1c7190cf823c8bc810896686db7fbd315bd"
+  integrity sha512-zM9OkWwbjfHM6eex35t3bL3t3NmJzKC5cxlQiNkV2KuddFKptzOKGJIaebo9D9zTsW6eYzHcwTrjL/T+RnQF+Q==
   dependencies:
     "@storybook/addons" "^6.4.10"
     css-loader "^6.5.1"
