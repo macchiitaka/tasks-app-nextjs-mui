@@ -9,6 +9,7 @@ const config = {
     ignoreDevErrors: true,
     ignoreBuildErrors: true,
   },
+  swcMinify: true,
   reactStrictMode: true,
   compress: true,
   poweredByHeader: false,
