@@ -6,9 +6,13 @@ module.exports = {
     '@storybook/addon-a11y',
     'storybook-addon-next',
   ],
+  framework: '@storybook/react',
+  core: {
+    builder: 'webpack5',
+  },
   typescript: {
     check: false,
-    // reactDocgen: false,
+    reactDocgen: false,
   },
   reactOptions: {
     fastRefresh: true,
