@@ -6,7 +6,11 @@ jobs:
     name: Test
     strategy:
       matrix:
-        os: [ubuntu-18.04, windows-latest, macos-latest]
+        os: [
+          ubuntu-18.04,
+          # windows-latest,
+          # macos-latest
+        ]
     runs-on: ${{ matrix.os }}
     steps:
       - name: Checkout repository
