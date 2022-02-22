@@ -3,11 +3,7 @@ import { Box, Grid, Typography } from '@mui/material';
 import { NewTaskForm } from '../NewTaskForm';
 import { TaskUList } from '../TaskUList';
 
-type ContainerProps = {};
-
-type Props = {} & ContainerProps;
-
-export const View: React.VFC<Props> = () => (
+export const View: React.VFC = () => (
   <Box padding={4}>
     <Grid container direction="column" gap={2}>
       <Grid item>
@@ -25,4 +21,4 @@ export const View: React.VFC<Props> = () => (
   </Box>
 );
 
-export const Page: React.VFC<ContainerProps> = (props) => <View {...props} />;
+export const Page: React.VFC = (props) => <View {...props} />;
