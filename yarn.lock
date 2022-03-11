@@ -12113,10 +12113,10 @@ store2@^2.12.0:
   resolved "https://registry.yarnpkg.com/store2/-/store2-2.13.1.tgz#fae7b5bb9d35fc53dc61cd262df3abb2f6e59022"
   integrity sha512-iJtHSGmNgAUx0b/MCS6ASGxb//hGrHHRgzvN+K5bvkBTN7A9RTpPSf1WSp+nPGvWCJ1jRnvY7MKnuqfoi3OEqg==
 
-storybook-addon-next@^1.6.1:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/storybook-addon-next/-/storybook-addon-next-1.6.1.tgz#f72da2b3ade61c9bd287825619ceacdf2d38aec5"
-  integrity sha512-n2Ssx7WOl5wlKucQXfVS9e8s+zonqBrxLEfFZ1WQLIvHWsfl8+od8xMSezXDSYwMiij40gkdqEa7v9Z2mpPQ9Q==
+storybook-addon-next@^1.6.2:
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/storybook-addon-next/-/storybook-addon-next-1.6.2.tgz#59b2bd007cbc7665ad60c7bdcebad0c65fa3b82f"
+  integrity sha512-v6x2oj+dWqL4Ed64rO8KRQG07JM0uv031IMlBNJAPLclyL7yWA/eCnwiZNNoLOXpV5LCV00KCchF1BJwmqcjBw==
   dependencies:
     "@storybook/addons" "^6.4.10"
     image-size "^1.0.0"
