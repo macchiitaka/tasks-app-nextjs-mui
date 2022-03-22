@@ -75,7 +75,7 @@
     "@types/react-test-renderer": "^17.0.1",
     "@types/testing-library__jest-dom": "^5.14.3",
     "@types/testing-library__user-event": "^4.2.0",
-    "babel-loader": "^8.2.3",
+    "babel-loader": "^8.2.4",
     "browserslist": "4.20.2",
     "caniuse-lite": "1.0.30001319",
     "eslint": "^8.11.0",
