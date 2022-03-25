@@ -97,7 +97,7 @@
     "postcss": "^8.4.12",
     "postcss-jsx": "^0.36.4",
     "postcss-syntax": "^0.36.2",
-    "prettier": "2.6.0",
+    "prettier": "2.6.1",
     "react-test-renderer": "^17.0.2",
     "sort-package-json": "1.55.0",
     "storybook-addon-next": "^1.6.2",
