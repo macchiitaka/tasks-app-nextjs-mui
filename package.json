@@ -78,7 +78,7 @@
     "babel-loader": "^8.2.4",
     "browserslist": "4.20.2",
     "caniuse-lite": "1.0.30001320",
-    "eslint": "^8.11.0",
+    "eslint": "^8.12.0",
     "eslint-config-next": "^12.1.1",
     "eslint-plugin-compat": "^4.0.2",
     "eslint-plugin-jest": "^26.1.3",
