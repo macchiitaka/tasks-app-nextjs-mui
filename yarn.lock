@@ -2961,10 +2961,10 @@
     regenerator-runtime "^0.13.7"
     resolve-from "^5.0.0"
 
-"@takamachi/eslint-config@^2.6.4":
-  version "2.6.4"
-  resolved "https://registry.yarnpkg.com/@takamachi/eslint-config/-/eslint-config-2.6.4.tgz#43019351aceb2ba446ba1867fa53fe5f7ea29dcb"
-  integrity sha512-YwxYRst21R0Ox8B2gUUBCVdplYhoFsKulQ4a7hr4v6Vsat3dT7+ABiyDzRTz+HI3eLI28//lPZCHNTCwNQOeOA==
+"@takamachi/eslint-config@^2.6.5":
+  version "2.6.5"
+  resolved "https://registry.yarnpkg.com/@takamachi/eslint-config/-/eslint-config-2.6.5.tgz#427f7f6e503c07d5308f31ad43afd5f973e62b97"
+  integrity sha512-vESVNkmGYti89jGw38DF7H1KbCOte6BWcRrGRJdwFvg1qmMmidfhIpt8ivTowyhRvWsbnuK1322lIJQeA/RYOw==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^5.17.0"
     "@typescript-eslint/parser" "^5.17.0"
@@ -2973,7 +2973,7 @@
     eslint-plugin-jsx-a11y "^6.5.1"
     eslint-plugin-node "^11.1.0"
     eslint-plugin-react "^7.29.4"
-    eslint-plugin-react-hooks "^4.3.0"
+    eslint-plugin-react-hooks "^4.4.0"
     eslint-plugin-simple-import-sort "^7.0.0"
     eslint-plugin-unicorn "^41.0.1"
     eslint-plugin-unused-imports "^2.0.0"
@@ -6431,10 +6431,15 @@ eslint-plugin-node@^11.1.0:
     resolve "^1.10.1"
     semver "^6.1.0"
 
-eslint-plugin-react-hooks@4.3.0, eslint-plugin-react-hooks@^4.3.0:
+eslint-plugin-react-hooks@4.3.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.3.0.tgz#318dbf312e06fab1c835a4abef00121751ac1172"
   integrity sha512-XslZy0LnMn+84NEG9jSGR6eGqaZB3133L8xewQo3fQagbQuGt7a63gf+P1NGKZavEYEC3UXaWEAA/AqDkuN6xA==
+
+eslint-plugin-react-hooks@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.4.0.tgz#71c39e528764c848d8253e1aa2c7024ed505f6c4"
+  integrity sha512-U3RVIfdzJaeKDQKEJbz5p3NW8/L80PCATJAfuojwbaEL+gBjfGdhUcGde+WGUW46Q5sr/NgxevsIiDtNXrvZaQ==
 
 eslint-plugin-react@7.29.1:
   version "7.29.1"
