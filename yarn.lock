@@ -2966,10 +2966,10 @@
     regenerator-runtime "^0.13.7"
     resolve-from "^5.0.0"
 
-"@takamachi/eslint-config@^2.6.5":
-  version "2.6.5"
-  resolved "https://registry.yarnpkg.com/@takamachi/eslint-config/-/eslint-config-2.6.5.tgz#427f7f6e503c07d5308f31ad43afd5f973e62b97"
-  integrity sha512-vESVNkmGYti89jGw38DF7H1KbCOte6BWcRrGRJdwFvg1qmMmidfhIpt8ivTowyhRvWsbnuK1322lIJQeA/RYOw==
+"@takamachi/eslint-config@^2.6.6":
+  version "2.6.6"
+  resolved "https://registry.yarnpkg.com/@takamachi/eslint-config/-/eslint-config-2.6.6.tgz#c746ce255f51755105f5ae610c5b4a8b905b75ad"
+  integrity sha512-WlllUbDdFvjH/vUlP4DNmpBVu9INe3K+Ea+BK8ah56I87amRyg3+DKGKn6L1OZcjjJx2EalFmow95MUCKwmYJg==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^5.17.0"
     "@typescript-eslint/parser" "^5.17.0"
@@ -2980,7 +2980,7 @@
     eslint-plugin-react "^7.29.4"
     eslint-plugin-react-hooks "^4.4.0"
     eslint-plugin-simple-import-sort "^7.0.0"
-    eslint-plugin-unicorn "^41.0.1"
+    eslint-plugin-unicorn "^42.0.0"
     eslint-plugin-unused-imports "^2.0.0"
 
 "@takamachi/prettier-config@^1.1.0":
@@ -6507,10 +6507,10 @@ eslint-plugin-testing-library@^5.2.0:
   dependencies:
     "@typescript-eslint/utils" "^5.13.0"
 
-eslint-plugin-unicorn@^41.0.1:
-  version "41.0.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-41.0.1.tgz#b49205b38e71e227d21fb5776f8d078a1dc637ca"
-  integrity sha512-gF5vo2dIj0YdNMQ/IMegiBkQdQ22GBFFVpdkJP+0og3w7XD4ypea0xQVRv6iofkLVR2w0phAdikcnU01ybd4Ow==
+eslint-plugin-unicorn@^42.0.0:
+  version "42.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-42.0.0.tgz#47d60c00c263ad743403b052db689e39acbacff1"
+  integrity sha512-ixBsbhgWuxVaNlPTT8AyfJMlhyC5flCJFjyK3oKE8TRrwBnaHvUbuIkCM1lqg8ryYrFStL/T557zfKzX4GKSlg==
   dependencies:
     "@babel/helper-validator-identifier" "^7.15.7"
     ci-info "^3.3.0"
