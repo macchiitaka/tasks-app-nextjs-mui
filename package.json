@@ -58,7 +58,7 @@
     "@storybook/addons": "^6.5.0-alpha.56",
     "@takamachi/eslint-config": "^2.6.7",
     "@takamachi/prettier-config": "^1.1.0",
-    "@testing-library/dom": "^8.12.0",
+    "@testing-library/dom": "^8.13.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^14.0.4",
