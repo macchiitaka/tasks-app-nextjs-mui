@@ -12,7 +12,7 @@ import {
   wrapper,
 } from '../../interfaces/ui/store/store';
 
-export const SSG: React.VFC = () => {
+export const SSG: React.FC = () => {
   const a = useAppSelector((state) => state.a.value);
   const b = useAppSelector((state) => state.b.value);
   const dispatch = useAppDispatch();

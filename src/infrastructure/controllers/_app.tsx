@@ -1,6 +1,6 @@
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
-import type { FC } from 'react';
+import type { FC, PropsWithChildren } from 'react';
 import { useMemo } from 'react';
 import type { DehydratedState } from 'react-query';
 import { QueryClient, QueryClientProvider } from 'react-query';
@@ -14,10 +14,12 @@ type GetConstructorArgs<T> = T extends new (...args: infer U) => any
   ? U
   : never;
 
-export const ReactQueryClientProvider: FC<{
-  queryClientConfig?: GetConstructorArgs<typeof QueryClient>[0];
-  dehydratedState?: DehydratedState;
-}> = (props) => {
+export const ReactQueryClientProvider: FC<
+  PropsWithChildren<{
+    queryClientConfig?: GetConstructorArgs<typeof QueryClient>[0];
+    dehydratedState?: DehydratedState;
+  }>
+> = (props) => {
   const queryClient = useMemo(
     () =>
       new QueryClient(

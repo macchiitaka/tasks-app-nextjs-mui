@@ -1,5 +1,5 @@
 export const pagesPath = {
-  ssg: {
+  "ssg": {
     $url: (url?: { hash?: string }) => ({ pathname: '/ssg' as const, hash: url?.hash })
   },
   $url: (url?: { hash?: string }) => ({ pathname: '/' as const, hash: url?.hash })
