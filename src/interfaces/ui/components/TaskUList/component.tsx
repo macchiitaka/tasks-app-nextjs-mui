@@ -16,7 +16,7 @@ type Props = {
 
 const TaskLIMemoized = memo(TaskLI);
 
-export const View: React.VFC<Props> = (props) => (
+export const View: React.FC<Props> = (props) => (
   <List>
     {props.data?.map((task) => (
       <TaskLIMemoized key={task.id} {...task} />
@@ -24,7 +24,7 @@ export const View: React.VFC<Props> = (props) => (
   </List>
 );
 
-export const TaskUList: React.VFC<ContainerProps> = (props) => {
+export const TaskUList: React.FC<ContainerProps> = (props) => {
   const { isLoading, isError, data } = useQuery(taskKeys.list(), fetchTasks);
 
   return (

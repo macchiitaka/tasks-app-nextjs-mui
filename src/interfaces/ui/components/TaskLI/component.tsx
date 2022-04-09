@@ -11,7 +11,7 @@ import {
   ListItem,
   Typography,
 } from '@mui/material';
-import type { ChangeEvent, VFC } from 'react';
+import type { ChangeEvent, FC } from 'react';
 import { useCallback, useState } from 'react';
 import { useMutation, useQueryClient } from 'react-query';
 import { useUID, useUIDSeed } from 'react-uid';
@@ -83,7 +83,7 @@ const useClickDeleteHandler = (id: number, title: string) => {
   }, [id, mutate]);
 };
 
-export const TaskLI: React.VFC<ContainerProps> = ({ id, title, done }) => {
+export const TaskLI: React.FC<ContainerProps> = ({ id, title, done }) => {
   const handleChangeDone = useChangeDoneHandler(id, title);
   const handleClickDelete = useClickDeleteHandler(id, title);
 
@@ -98,7 +98,7 @@ export const TaskLI: React.VFC<ContainerProps> = ({ id, title, done }) => {
   );
 };
 
-export const View: React.VFC<Omit<Props, 'createdAt' | 'updatedAt'>> = ({
+export const View: React.FC<Omit<Props, 'createdAt' | 'updatedAt'>> = ({
   id,
   title,
   done,
@@ -155,7 +155,7 @@ export const View: React.VFC<Omit<Props, 'createdAt' | 'updatedAt'>> = ({
   );
 };
 
-const Confirm: VFC<{
+const Confirm: FC<{
   isOpened: boolean;
   title: string;
   onDelete(): void;
