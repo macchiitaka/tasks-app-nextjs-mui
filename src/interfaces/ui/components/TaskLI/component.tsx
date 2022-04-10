@@ -12,9 +12,8 @@ import {
   Typography,
 } from '@mui/material';
 import type { ChangeEvent, FC } from 'react';
-import { useCallback, useState } from 'react';
+import { useCallback, useId,useState  } from 'react';
 import { useMutation, useQueryClient } from 'react-query';
-import { useUID, useUIDSeed } from 'react-uid';
 
 import type { TaskModel } from '../../../../domain/models/task-model';
 import { deleteTask, taskKeys, updateTask } from '../../queries/tasks';
@@ -105,7 +104,7 @@ export const View: React.FC<Omit<Props, 'createdAt' | 'updatedAt'>> = ({
   onChangeDone,
   onClickDelete,
 }) => {
-  const checkboxId = useUID();
+  const checkboxId = useId();
 
   const [isOpened, setIsOpened] = useState(false);
 
@@ -161,17 +160,18 @@ const Confirm: FC<{
   onDelete(): void;
   onClose(): void;
 }> = ({ isOpened, title, onClose, onDelete }) => {
-  const seed = useUIDSeed();
+  const label = useId();
+  const description = useId();
   return (
     <Dialog
       open={isOpened}
       onClose={onClose}
-      aria-labelledby={seed('label')}
-      aria-describedby={seed('description')}
+      aria-labelledby={label}
+      aria-describedby={description}
     >
-      <DialogTitle id={seed('label')}>Delete task</DialogTitle>
+      <DialogTitle id={label}>Delete task</DialogTitle>
       <DialogContent>
-        <DialogContentText id={seed('description')}>
+        <DialogContentText id={description}>
           {`Are you sure want to delete "${title}"?`}
         </DialogContentText>
       </DialogContent>
