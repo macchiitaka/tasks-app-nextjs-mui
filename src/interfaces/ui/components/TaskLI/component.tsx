@@ -12,7 +12,7 @@ import {
   Typography,
 } from '@mui/material';
 import type { ChangeEvent, FC } from 'react';
-import { useCallback, useId,useState  } from 'react';
+import { useCallback, useId, useState } from 'react';
 import { useMutation, useQueryClient } from 'react-query';
 
 import type { TaskModel } from '../../../../domain/models/task-model';
