@@ -6,7 +6,6 @@ const config = {
     esmExternals: true,
   },
   typescript: {
-    ignoreDevErrors: true,
     ignoreBuildErrors: true,
   },
   swcMinify: true,
@@ -18,8 +17,10 @@ const config = {
   poweredByHeader: false,
 };
 
+// @ts-expect-error
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
-  enabled: process.env.ANALYZE === 'true',
+  // eslint-disable-next-line dot-notation
+  enabled: process.env['ANALYZE'] === 'true',
 });
 
 module.exports = withBundleAnalyzer(config);

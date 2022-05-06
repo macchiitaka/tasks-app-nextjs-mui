@@ -37,7 +37,8 @@ export const ReactQueryClientProvider: FC<
   return (
     <QueryClientProvider client={queryClient}>
       {process.env.NODE_ENV !== 'production' &&
-        process.env.STORYBOOK !== 'true' && (
+        // eslint-disable-next-line dot-notation
+        process.env['STORYBOOK'] !== 'true' && (
           <ReactQueryDevtools initialIsOpen={false} />
         )}
       {props.children}
