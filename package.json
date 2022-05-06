@@ -61,6 +61,7 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^14.1.1",
+    "@tsconfig/strictest": "^1.0.1",
     "@types/babel__core": "^7.1.19",
     "@types/caniuse-lite": "1.0.1",
     "@types/eslint": "^8.4.1",
@@ -110,11 +111,11 @@
     "node": ">=14.x",
     "yarn": ">=1"
   },
-  "msw": {
-    "workerDirectory": "storybook-public"
-  },
   "volta": {
     "node": "17.5.0",
     "yarn": "1.22.18"
+  },
+  "msw": {
+    "workerDirectory": "storybook-public"
   }
 }

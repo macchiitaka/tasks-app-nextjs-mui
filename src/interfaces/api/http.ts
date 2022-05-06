@@ -2,7 +2,9 @@ import type { AxiosRequestConfig } from 'axios';
 import { default as axios } from 'axios';
 import type { Primitive } from 'utility-types';
 
-const DOMAIN = process.env.DOMAIN ?? 'https://tasks-api-express.herokuapp.com';
+const DOMAIN =
+  // eslint-disable-next-line dot-notation
+  process.env['DOMAIN'] ?? 'https://tasks-api-express.herokuapp.com';
 
 const paramsSerializer = (params: {
   [key: string]: Primitive | Primitive[];

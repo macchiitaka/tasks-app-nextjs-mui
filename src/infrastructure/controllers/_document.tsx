@@ -2,7 +2,7 @@
 import Document, { Head, Html, Main, NextScript } from 'next/document';
 
 export class MyDocument extends Document {
-  render() {
+  override render() {
     return (
       <Html lang="en-US">
         <Head>

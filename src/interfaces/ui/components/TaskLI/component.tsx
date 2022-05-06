@@ -59,7 +59,7 @@ const useChangeDoneHandler = (id: number, title: string) => {
   );
 };
 
-const useClickDeleteHandler = (id: number, title: string) => {
+const useClickDeleteHandler = (id: number) => {
   const queryClient = useQueryClient();
 
   const { mutate } = useMutation(taskKeys.detail(id), deleteTask, {
@@ -84,7 +84,7 @@ const useClickDeleteHandler = (id: number, title: string) => {
 
 export const TaskLI: React.FC<ContainerProps> = ({ id, title, done }) => {
   const handleChangeDone = useChangeDoneHandler(id, title);
-  const handleClickDelete = useClickDeleteHandler(id, title);
+  const handleClickDelete = useClickDeleteHandler(id);
 
   return (
     <View

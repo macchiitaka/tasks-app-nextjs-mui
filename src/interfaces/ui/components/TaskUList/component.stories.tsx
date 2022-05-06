@@ -18,7 +18,7 @@ export const Default = Template.bind({});
 Default.parameters = {
   msw: {
     handlers: [
-      rest.get('*/api/v1/tasks', (req, res, ctx) =>
+      rest.get('*/api/v1/tasks', (_, res, ctx) =>
         res(
           ctx.delay(100),
           ctx.status(200),
@@ -50,7 +50,7 @@ export const Error = Template.bind({});
 Error.parameters = {
   msw: {
     handlers: [
-      rest.get('*/api/v1/tasks', (req, res, ctx) =>
+      rest.get('*/api/v1/tasks', (_, res, ctx) =>
         res(ctx.delay(100), ctx.status(400), ctx.json({})),
       ),
     ],
