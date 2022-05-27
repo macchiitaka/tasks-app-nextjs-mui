@@ -11282,10 +11282,10 @@ react-merge-refs@^1.0.0:
   resolved "https://registry.yarnpkg.com/react-merge-refs/-/react-merge-refs-1.1.0.tgz#73d88b892c6c68cbb7a66e0800faa374f4c38b06"
   integrity sha512-alTKsjEL0dKH/ru1Iyn7vliS2QRcBp9zZPGoWxUOvRGWPUYgjo+V01is7p04It6KhgrzhJGnIj9GgX8W4bZoCQ==
 
-react-query@4.0.0-beta.14:
-  version "4.0.0-beta.14"
-  resolved "https://registry.yarnpkg.com/react-query/-/react-query-4.0.0-beta.14.tgz#c6432f57081aba6c54773f277ca0d4190fb6ff6b"
-  integrity sha512-hHtORS+MxLw4b2aqY1wW73YfHsGxXD90hDo68h8JK1Rxeo6BjGoCYYh+wDDN5vdz/SJUj7fN7TA5zISgEZHx8g==
+react-query@4.0.0-beta.15:
+  version "4.0.0-beta.15"
+  resolved "https://registry.yarnpkg.com/react-query/-/react-query-4.0.0-beta.15.tgz#c598923bc464597bdcec1dd3845d05a13a07aa22"
+  integrity sha512-Muxedh0VdwL3QitW2ZO71r+w9uIfWgTdiycD59FQ7nHmWq0Hrooo2oBDb14mT3+GW9sTod5oAuWYP7v8VZY66Q==
   dependencies:
     "@babel/runtime" "^7.17.9"
     "@types/use-sync-external-store" "^0.0.3"
