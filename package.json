@@ -101,7 +101,7 @@
   },
   "volta": {
     "node": "17.5.0",
-    "yarn": "1.22.18"
+    "yarn": "1.22.19"
   },
   "msw": {
     "workerDirectory": "storybook-public"
