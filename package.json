@@ -10,7 +10,7 @@
     "dev:next": "next dev",
     "dev:path": "pathpida --enableStatic --watch",
     "fmt": "run-s fmt:prettier fmt:package-json fmt:eslint",
-    "fmt:prettier": "prettier --write --tab-width 2 \"**/*.{js,jsx,ts,tsx,json,yml,yaml,md}\"",
+    "fmt:prettier": "prettier --write --cache --tab-width 2 \"**/*.{js,jsx,ts,tsx,json,yml,yaml,md}\"",
     "fmt:eslint": "eslint \"**/*.{js,jsx,ts,tsx}\" --cache --cache-strategy content --report-unused-disable-directives --fix",
     "fmt:package-json": "sort-package-json",
     "postinstall": "run-p postinstall:**",
@@ -95,13 +95,10 @@
     "utility-types": "3.10.0",
     "webpack": "^5.73.0"
   },
+  "packageManager": "yarn@1.22.18",
   "engines": {
     "node": ">=14.x",
     "yarn": ">=1"
-  },
-  "volta": {
-    "node": "17.5.0",
-    "yarn": "1.22.19"
   },
   "msw": {
     "workerDirectory": "storybook-public"
