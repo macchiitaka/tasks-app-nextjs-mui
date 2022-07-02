@@ -17,7 +17,6 @@ const config = {
   poweredByHeader: false,
 };
 
-// @ts-expect-error
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
   // eslint-disable-next-line dot-notation
   enabled: process.env['ANALYZE'] === 'true',
