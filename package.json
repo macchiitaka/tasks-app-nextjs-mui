@@ -26,7 +26,7 @@
   },
   "resolutions": {
     "browserslist": "4.21.1",
-    "caniuse-lite": "1.0.30001363",
+    "caniuse-lite": "1.0.30001364",
     "immer": "9.0.15"
   },
   "dependencies": {
@@ -65,7 +65,7 @@
     "@tsconfig/strictest": "^1.0.1",
     "babel-loader": "^8.2.5",
     "browserslist": "4.21.1",
-    "caniuse-lite": "1.0.30001363",
+    "caniuse-lite": "1.0.30001364",
     "eslint": "^8.19.0",
     "eslint-config-next": "^12.2.2",
     "eslint-plugin-compat": "^4.0.2",
