@@ -1,4 +1,4 @@
-import type { QueryFunctionContext } from 'react-query';
+import type { QueryFunctionContext } from '@tanstack/react-query';
 
 import { CreateTask } from '../../../application/usecases/create-task';
 import { ListTasks } from '../../../application/usecases/list-tasks';

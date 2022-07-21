@@ -1,6 +1,6 @@
 import { List } from '@mui/material';
+import { useQuery } from '@tanstack/react-query';
 import { memo } from 'react';
-import { useQuery } from 'react-query';
 
 import type { TaskModel } from '../../../../domain/models/task-model';
 import { fetchTasks, taskKeys } from '../../queries/tasks';
