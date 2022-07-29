@@ -25,7 +25,7 @@
     "build-storybook": "build-storybook -s storybook-public"
   },
   "resolutions": {
-    "browserslist": "4.21.2",
+    "browserslist": "4.21.3",
     "caniuse-lite": "1.0.30001369",
     "immer": "9.0.15"
   },
@@ -65,7 +65,7 @@
     "@testing-library/user-event": "^14.3.0",
     "@tsconfig/strictest": "^1.0.1",
     "babel-loader": "^8.2.5",
-    "browserslist": "4.21.2",
+    "browserslist": "4.21.3",
     "caniuse-lite": "1.0.30001369",
     "eslint": "^8.20.0",
     "eslint-config-next": "^12.2.3",
