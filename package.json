@@ -56,7 +56,7 @@
     "@storybook/builder-webpack5": "^6.5.9",
     "@storybook/manager-webpack5": "^6.5.9",
     "@storybook/react": "^6.5.9",
-    "@takamachi/eslint-config": "^2.9.1",
+    "@takamachi/eslint-config": "^2.9.2",
     "@takamachi/prettier-config": "^1.1.0",
     "@tanstack/react-query-devtools": "^4.0.10",
     "@testing-library/dom": "^8.16.0",
